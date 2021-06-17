@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on computerBy.xpath: //ul[@class='top-menu notmobile']//a[text()='Computers ']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Desktop By.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting value from dropdown By.xpath: //select[@id='products-orderby']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on add to cart buttonBy.xpath: //button[@onclick='return AjaxCart.addproducttocart_catalog("/addproducttocart/catalog/1/1/1"),!1']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get build computer textBy.xpath: //h1[contains(text(),'Build your own computer')]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get Intel Pentium textBy.xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select 8GBRAM 5from Ram DropDownBy.xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']<br>]]>
+    </line>
+    <line>
+      <![CDATA[clicking on 400GB RadioButton By.xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Premium radio button By.xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Total commander By.xpath: //input[@id='product_attribute_5_12']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting total price from By.xpath: //div[@class='product-price']/span[@id='price-value-1']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on product add to cart By.xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting verification message from By.xpath: //body/div[@id='bar-notification']/div[1]/p[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on computerBy.xpath: //ul[@class='top-menu notmobile']//a[text()='Computers ']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Desktop By.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting actual text from By.xpath: //div[@class='page-title']<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="49644" started-at="2021-06-17T14:21:35Z" finished-at="2021-06-17T14:22:25Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductArrangeInAlphabeticalOrder" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.homePage.TestTopMenu"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestSuite.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductArrangeInAlphabeticalOrder" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.homePage.TestTopMenu"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestSuite.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestSuite.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductArrangeInAlphabeticalOrder" class="com.nopcommerce.demo.computers.TestSuite"/>
+        <method signature="TestTopMenu.selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" class="com.nopcommerce.demo.homePage.TestTopMenu"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="49644" started-at="2021-06-17T14:21:35Z" finished-at="2021-06-17T14:22:25Z">
+      <class name="com.nopcommerce.demo.homePage.TestTopMenu">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="setUp" is-config="true" duration-ms="2766" started-at="2021-06-17T14:22:20Z" finished-at="2021-06-17T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectMenuAndClick()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="selectMenuAndClick" duration-ms="1167" started-at="2021-06-17T14:22:23Z" finished-at="2021-06-17T14:22:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting actual text from By.xpath: //div[@class='page-title']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectMenuAndClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.homePage.TestTopMenu@475530b9]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-06-17T14:22:24Z" finished-at="2021-06-17T14:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.homePage.TestTopMenu -->
+      <class name="com.nopcommerce.demo.computers.TestSuite">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="setUp" is-config="true" duration-ms="3622" started-at="2021-06-17T14:21:35Z" finished-at="2021-06-17T14:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="30705" started-at="2021-06-17T14:21:39Z" finished-at="2021-06-17T14:22:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on computerBy.xpath: //ul[@class='top-menu notmobile']//a[text()='Computers ']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Desktop By.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting value from dropdown By.xpath: //select[@id='products-orderby']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on add to cart buttonBy.xpath: //button[@onclick='return AjaxCart.addproducttocart_catalog("/addproducttocart/catalog/1/1/1"),!1']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get build computer textBy.xpath: //h1[contains(text(),'Build your own computer')]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get Intel Pentium textBy.xpath: //dd[@id='product_attribute_input_1']/select[@id='product_attribute_1']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select 8GBRAM 5from Ram DropDownBy.xpath: //dd[@id='product_attribute_input_2']/select[@id='product_attribute_2']<br>]]>
+            </line>
+            <line>
+              <![CDATA[clicking on 400GB RadioButton By.xpath: //ul[@class='option-list']/li[@data-attr-value='7']/input[@id='product_attribute_3_7']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Premium radio button By.xpath: //li[@data-attr-value='9']/input[@id='product_attribute_4_9']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Total commander By.xpath: //input[@id='product_attribute_5_12']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting total price from By.xpath: //div[@class='product-price']/span[@id='price-value-1']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on product add to cart By.xpath: //div[@class='add-to-cart-panel']/button[@id='add-to-cart-button-1']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting verification message from By.xpath: //body/div[@id='bar-notification']/div[1]/p[1]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="tearDown" is-config="true" duration-ms="738" started-at="2021-06-17T14:22:09Z" finished-at="2021-06-17T14:22:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="setUp" is-config="true" duration-ms="2735" started-at="2021-06-17T14:22:10Z" finished-at="2021-06-17T14:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="verifyProductArrangeInAlphabeticalOrder" duration-ms="6437" started-at="2021-06-17T14:22:13Z" finished-at="2021-06-17T14:22:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on computerBy.xpath: //ul[@class='top-menu notmobile']//a[text()='Computers ']<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Desktop By.xpath: //h2[@class='title']/a[@href='/desktops']<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphabeticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.computers.TestSuite@2b98378d]" name="tearDown" is-config="true" duration-ms="710" started-at="2021-06-17T14:22:19Z" finished-at="2021-06-17T14:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.computers.TestSuite -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
